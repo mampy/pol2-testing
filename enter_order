@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>enter_order</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">enter_order</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=New Order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_drumcustomer</td>
+	<td>Test Case Mfg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_qty</td>
+	<td>250</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>order_due_date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=30</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>order_production_date</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=26</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_item_no</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_rev_no</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_order_num</td>
+	<td>6789</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_po_num</td>
+	<td>101112</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_gallon</td>
+	<td>55</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_thfoh</td>
+	<td>label=TH</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_dia</td>
+	<td>label=22.5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_no_hoops</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_hoop</td>
+	<td>label=std</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_mm_top</td>
+	<td>label=1.2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_mm_body</td>
+	<td>label=1.2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_mm_bottom</td>
+	<td>label=1.2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>order_paint</td>
+	<td>s350</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_lining</td>
+	<td>label=unlined</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>order_ship_via</td>
+	<td>label=Common Carrier</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>order_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>orderproduction_choice</td>
+	<td>label=on/after today</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2010-04-26</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>2010-04-30</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Test Case Mfg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>250</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>22.5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>TH</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>std</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1.2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>1.2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>s350</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>unlined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>This is a test case</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[@id='24425']/td[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Destroy Order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to permanently destroy this order?</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
