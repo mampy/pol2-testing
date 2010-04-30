@@ -12,11 +12,6 @@
 <tr><td rowspan="1" colspan="3">user_new_page</td></tr>
 </thead><tbody>
 <tr>
-	<td>open</td>
-	<td>/orders</td>
-	<td></td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>link=Users</td>
 	<td></td>
@@ -199,6 +194,71 @@
 <tr>
 	<td>verifyTextPresent</td>
 	<td>Back to List</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>Test Case</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_email</td>
+	<td>tcase@berenfield.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_password</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_password_confirmation</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>user_editor</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>user_role</td>
+	<td>label=customer.service</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>user_plants_easton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>user_menus_new_order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>user_menus_orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>user_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>link=Destroy</td>
+	<td>click</td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Orders</td>
 	<td></td>
 </tr>
 

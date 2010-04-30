@@ -201,6 +201,11 @@
 	<td>exact:Hoop Style* std none w corrg</td>
 	<td></td>
 </tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>

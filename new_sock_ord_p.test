@@ -201,6 +201,11 @@
 	<td>- format - Paragraph Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 - font - Arial Comic Sans Courier New Georgia Helvetica Impact Times Trebuchet Verdana - 1 (8pt) 2 (10pt) 3 (12pt) 4 (14pt) 5 (16pt) 6 (18pt) 7 (20pt)- no css -</td>
 	<td></td>
 </tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>
